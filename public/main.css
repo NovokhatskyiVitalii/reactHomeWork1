@@ -1,0 +1,101 @@
+.container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.card-block {
+  width: 390px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  margin: 20px;
+}
+.card-block .user-card {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  padding: 20px;
+}
+.card-block .user-card .user-info {
+  display: flex;
+  flex-direction: column;
+}
+.background-modal {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  top: 0;
+  left: 0;
+}
+
+.modal {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+.modal .user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+}
+.modal .user-photo {
+  margin-top: 80px;
+}
+.modal .user-photo img {
+  padding-right: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  height: 100px;
+  border-radius: 5px;
+}
+.header .box {
+  display: flex;
+  align-items: center;
+}
+.header .box input {
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border-color: 1px solid gray;
+}
+.header .box select {
+  cursor: pointer;
+}
+.header button {
+  cursor: pointer;
+  padding: 2px 10px;
+  background-color: rgb(191, 0, 0);
+  border-style: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  display: flex;
+  justify-self: safe;
+  align-self: center;
+}
+.header button:hover {
+  background-color: rgba(184, 184, 184, 0.978);
+}
+
+/*# sourceMappingURL=main.css.map */
